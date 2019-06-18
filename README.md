@@ -13,7 +13,7 @@ The basis for springMVC (spring 5) + postgresql 9.6 + hikariCP 2.7.4 Projects.
  - lombok 1.18.0
  - mybatis 3.4.6
  
- ## 1. You mush modify the following:
+ ## 1. You must modify the following:
  
  ### src/main/webapp/WEB-INF/spring/root-context.xml
   ```html
@@ -33,7 +33,7 @@ The basis for springMVC (spring 5) + postgresql 9.6 + hikariCP 2.7.4 Projects.
   dataSource.password=password
   maximumPoolSize=10
   ```
- ## 2. You mush test the following:
+ ## 2. You must test the following:
   - src/test/java/org/spring/app/JDBCTests.java
   - src/test/java/org/spring/app/DataSourceTests.java
   - **Run As - JUnit Test**
